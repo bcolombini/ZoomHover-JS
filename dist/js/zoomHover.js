@@ -74,14 +74,6 @@ function zoomHover(options,element)
 	sheet.innerHTML += "}";
 	document.getElementsByTagName('head')[0].appendChild(sheet);
 
-
-
-
-
-//this.options.effect.zoom.enable == true?"scale("+this.options.effect.zoom.scale+")":""+ "
-
-
-
 	function extend(original_obj,ext_obj)
 	{
 		for(key1 in ext_obj)
