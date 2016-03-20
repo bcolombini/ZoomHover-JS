@@ -51,7 +51,7 @@ Element *(optional)* | *String* | **'.zoomHover'**
 ---
 **Transation:**
 *Attribute* | *Type* | *Default* | Options
--|-|-|-
+------------ | ------------- | ------------- | -------------
 Duration | *float* | **0.8** | time in seconds
 property | *string* | **'all'** | 'width','height'
 delay | *float* | **0** | time in seconds
@@ -75,7 +75,7 @@ rotate *(optional)* | *object* | ***object***
 
 **Zoom:**
 *Attribute* | *Type* | *Default* | Options
--|-|-|-
+------------ | ------------- | ------------- | -------------
 enable | *boolean* | **true** | ***true or false***
 scale | *float* | 1.6 | ***float number***
 
