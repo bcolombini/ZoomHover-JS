@@ -1,0 +1,40 @@
+<html lang='pt-br'>
+<head>
+<meta charset='utf-8' />
+
+	<style>
+	.zoomhover {
+	position: relative;
+    width: 1000px;
+    overflow: hidden;
+}
+
+	</style>
+	</head>
+	<body>
+		<div class="zoomhover">
+<img src="http://www.chegadedor.com/wp-content/uploads/2015/03/hipnose.png">
+</div>
+</body>
+<script src='zoomHover.js'></script>
+<script>
+var options = {
+    'transition':{
+        'duration':.5,
+        'function':'ease'
+        },
+    'effect':{
+        'zoom':{
+            'enable':true
+        },
+        'rotate':{
+            'enable':true,
+            'degrees':30
+        }
+    }
+}
+
+var zoomHover = new zoomHover(options,'.zoomhover');
+
+</script>
+</html>
