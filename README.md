@@ -66,6 +66,7 @@ var options = {
     }
 var zommHover = new zoomHover(options)
 ```
+
 ---
 **Effect:**
 *Attribute* | *Type* | *Default*
@@ -73,15 +74,17 @@ var zommHover = new zoomHover(options)
 zoom *(optional)* | *object* | ***object***
 rotate *(optional)* | *object* | ***object***
 
+
 **Zoom:**
 *Attribute* | *Type* | *Default* | Options
 ------------ | ------------- | ------------- | -------------
 enable | *boolean* | **true** | ***true or false***
 scale | *float* | 1.6 | ***float number***
 
+
 **Rotate:**
 *Attribute* | *Type* | *Default* | Options
--|-|-|-
+------------ | ------------- | ------------- | -------------
 enable | *boolean* | **true** | ***true or false***
 degrees | *integer* | 30 | 0 ~ infinte
 
