@@ -33,7 +33,7 @@ function zoomHover(options,element)
 		'effect':{
 			'zoom':{
 				'enable':true,
-				'scale':'1.6'
+				'scale':1.6
 			},
 			'rotate':{
 				'enable':true,
